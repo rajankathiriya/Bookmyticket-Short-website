@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Ticket</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/11.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0, 0, 0, 0.955); padding-top: 5px; padding-bottom: 5px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">Book <span style="color: rgba(255, 0, 0, 0.937);">My</span> Ticket</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">page 1 <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown"><a href="#">a</a></li>
+                            <li><a href="#">b</a></li>
+                            <li><a href="#">c</a></li>
+                            <li><a href="#">d</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">page 2</a></li>
+                    <li><a href="#">page 3</a></li>
+                    <li><a href="#">page 4</a></li>
+                </ul>
+                <!-- <form class="navbar-form navbar-left" action="#">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i
+                                    class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form> -->
+
+                <ul class="nav navbar-right navbar-nav">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"> sing up</span> </a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-plane"> Book</span> </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="margin: 0; padding: 0;">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="image/t-logo.jpg" alt="Los Angeles" style="width:100%; height:700px;">
+                    <div class="carousel-caption text-left">
+                        <h1 style="color: white">Planing Trip To Anywhere In The World!</h1>
+                        <button class="btn btn-danger" type="button" style="background-color: red;">Book Now</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/t-logo2.jpg" alt="Los Angeles" style="width:100%; height:700px;">
+                    <div class="carousel-caption text-left">
+                        <h1 style="color: black;">Planing Trip To Anywhere In The World!</h1>
+                        <button class="btn btn-danger" type="button" style="background-color: red;">Book Now</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/t-logo3.jpg" alt="Los Angeles" style="width:100%; height:700px;">
+                    <div class="carousel-caption text-left">
+                        <h1 style="color: black;">Planing Trip To Anywhere In The World!</h1>
+                        <button class="btn btn-danger" type="button" style="background-color: red;">Book Now</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-center">
+            <h1>Most Popular destinations</h1>
+            <p>The 20 most popular travel destinations in the world 1 Bangkok, Thailand. 2 London, England. <br>3 Paris, France. 4 Dubai, United Arab Emirates. More items...</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail" id="hover">
+                    <!-- <a href="image/statue unity.jpg"> -->
+                    <img src="image/statue unity.jpg" alt="Lights" class="img-responsive" style="height: 100%; width: 100%;">
+                    <div class="caption text-center">
+                        <h1>Statue of Unity</h1>
+                        <p>The Statue of Unity is the world's tallest statue, with a height of 182 metres, located in the state of Gujarat, India.</p>
+                        <button class="btn btn-lg" type="button" style="background-color: red; color: white;">Read
+                            More</button>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" id="hover">
+                    <!-- <a href="image/tajmahal.jpg"> -->
+                    <img src="image/tajmahal.jpg" alt="Lights" class="img-responsive" style="height: 100%; width: 100%;">
+                    <div class="caption text-center">
+                        <h1>Taj Mahal</h1>
+                        <p>The Taj Mahal, is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra.</p>
+                        <button class="btn btn-lg" type="button" style="background-color: red; color: white;">Read
+                            More</button>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" id="hover">
+                    <!-- <a href="image/india gate.jpg"> -->
+                    <img src="image/india gate.jpg" alt="Lights" class="img-responsive" style="height: 100%; width: 100%;">
+                    <div class="caption text-center">
+                        <h1>India Gate</h1>
+                        <p>The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi. </p>
+                        <button class="btn btn-lg" type="button" style="background-color: red; color: white;">Read
+                            More</button>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail" id="hover">
+                    <!-- <a href="image/goa.jpg"> -->
+                    <img src="image/goa.jpg" alt="Lights" class="img-responsive" style="height: 100%; width: 100%;">
+                    <div class="caption text-center">
+                        <h1>Goa</h1>
+                        <p>Goa is a state on the southwestern coast of India within the Konkan region, geographically highlands by the Western Ghats.</p>
+                        <button class="btn btn-lg" type="button" style="background-color: red; color: white;">Read
+                            More</button>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" id="hover">
+                    <!-- <a href="image/maldiv.jpg"> -->
+                    <img src="image/maldiv.jpg" alt="Lights" class="img-responsive" style="height: 100%; width: 100%;">
+                    <div class="caption text-center">
+                        <h1>Maldives</h1>
+                        <p>A small archipelagic state in South Asia situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 700 kilometres </p>
+                        <button class="btn btn-lg" type="button" style="background-color: red; color: white;">Read
+                            More</button>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" id="hover">
+                    <!-- <a href="image/shreenagar.jpg"> -->
+                    <img src="image/shreenagar.jpg" alt="Lights" class="img-responsive" style="height: 100%; width: 100%;">
+                    <div class="caption text-center">
+                        <h1>Srinagar</h1>
+                        <p>Srinagar is the largest city and the summer capital of Jammu and Kashmir, India. It lies in the Kashmir Valley on the banks of the Jhelum River</p>
+                        <button class="btn btn-lg" type="button" style="background-color: red; color: white;">Read
+                            More</button>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid text-center" id="travel1" style="padding: 50px;">
+        <!-- <div class="container text-center"> -->
+        <h1 style="font-family: 'Oleo Script Swash Caps', cursive; color: rgba(255, 0, 0, 0.671);">How Its Work</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, natus.</p>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2 text-center">
+                <h2 style="border: 1px solid white; border-radius: 100%;"> 1</h2>
+                <b>Lorem ipsum dolor sit amet.</b><br><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, pariatur.</p>
+            </div>
+            <div class="col-sm-2 text-center">
+                <h2 style="border: 1px solid white; border-radius: 100%;"> 2</h2>
+                <b>Lorem ipsum dolor sit amet.</b><br><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, pariatur.</p>
+            </div>
+            <div class="col-sm-2 text-center">
+                <h2 style="border: 1px solid white; border-radius: 100%;"> 3</h2>
+                <b>Lorem ipsum dolor sit amet.</b><br><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, pariatur.</p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <div class="container-fluid" id="travel2">
+        <h1 class="text-center" style="margin: 100px;font-family: 'Oleo Script Swash Caps', cursive; color: black;">We Have high quality service that you <br>will surely love!</h1>
+    </div>
+
+    <div class="container-fluid" style="text-align: center; padding: 40px;  background-color: #e2eff5;">
+        <div class="container">
+            <h1 style="font-family: 'Oleo Script Swash Caps', cursive; color: rgba(255, 0, 0, 0.671);">Our Success</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, doloribus deleniti? Commodi perferendis autem
+                <br> officia nobis beatae veritatis dignissimos consectetur.</p>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                    <h1 style="font-family: 'Oleo Script Swash Caps', cursive; color: rgba(255, 0, 0, 0.671);">1256</h1>
+                    <p>rajan</p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 style="font-family: 'Oleo Script Swash Caps', cursive; color: rgba(255, 0, 0, 0.671);">96</h1>
+                    <p>Milan</p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 style="font-family: 'Oleo Script Swash Caps', cursive; color: rgba(255, 0, 0, 0.671);">12426
+                    </h1>
+                    <p>Ravi</p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 style="font-family: 'Oleo Script Swash Caps', cursive; color: rgba(255, 0, 0, 0.671);">560</h1>
+                    <p>Jay</p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- subscribe -->
+    <div class="container-fluid" id="travel3" style="padding: 70px;">
+        <h1>Subscribe</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, magni.</p>
+        <form class="form-inline" action="/action_page.php">
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" style="background-color: transparent;">
+            </div>
+
+            <button type="submit" class="btn btn-default d-inline" style="width: auto; background-color: rgba(255, 0, 0, 0.671);">Submit</button>
+        </form>
+    </div>
+
+
+
+    <div class="container-fluid" style="padding: 70px; background-color: #172337; color: white;">
+        <div class="row">-
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <b>About Us:</b><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum aperiam consectetur ab iure perspiciatis repellat ea possimus totam? Minima ab sit ducimus accusantium voluptatem.
+            </div>
+            <div class="col-sm-2">
+
+                <ul class="" style="list-style-type: none;">
+                    <li><b>COMPANY LINKS</b></li>
+                    <li><a data-scroll="" href="#">Home</a></li>
+                    <li><a data-scroll="" href="#">About Us</a></li>
+                    <li><a data-scroll="" href="#">Services</a></li>
+                    <li><a data-scroll="" href="#">Our Work</a></li>
+                    <li><a data-scroll="" href="#">Testimonials</a></li>
+                    <li><a data-scroll="" href="#">Price</a></li>
+                    <li><a data-scroll="" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <!-- <b>Help</b> -->
+                <ul class="" style="list-style-type: none;">
+                    <li><b>Help</b></li>
+                    <li><a data-scroll="" href="#">Payments</a></li>
+                    <li><a data-scroll="" href="#">Shipping</a></li>
+                    <li><a data-scroll="" href="#">Services</a></li>
+                    <li><a data-scroll="" href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <b>Address:</b><br> Sayaji Path, Fatehgunj, <br>Vadodara, Gujarat 3100002<br><br>
+                <b>Contact us:</b><br> Contact: +91 8160135356 Email:rajankathiriya99@gmail.com
+            </div>
+
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #172337; color: white;">
+        <div class="row">
+            <div class="col-sm-6 text-center" style="font-size: 18px;">
+                <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Word tours</a> Design By :
+                    <a href="https://html.design/">Rajan kathiriya</a></p>
+            </div>
+            <div class="col-sm-6 text-right" style="font-size: 40px; color: white;">
+                <a href="https://twitter.com/home" target="_blank"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

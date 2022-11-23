@@ -1,0 +1,26 @@
+/* body{
+    margin-right: 0;
+    padding: 0;
+} */
+
+#hover:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#travel1 {
+    background-color: rgba(248, 233, 214, 0.937);
+    /* padding: 50px 0; */
+}
+
+#travel2 {
+    background-image: url(/image/tbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 80px;  */
+}
+
+#travel3 {
+    text-align: center;
+}
